@@ -1,0 +1,46 @@
+@prefix :      <https://www.epos-eu.org/epos-dcat-ap#> .
+@prefix schema: <http://schema.org/> .
+@prefix spdx:  <http://spdx.org/rdf/terms#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix gsp:   <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hydra: <http://www.w3.org/ns/hydra/core#> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix locn:  <http://www.w3.org/ns/locn#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix epos:  <https://www.epos-eu.org/epos-dcat-ap#> .
+@prefix adms:  <http://www.w3.org/ns/adms#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix cnt:   <http://www.w3.org/2011/content#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix http:  <http://www.w3.org/2006/http#> .
+@prefix dash:  <http://datashapes.org/dash#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<https://www.epos-eu.org/epos-dcat-ap#Distribution/b21d1b42-c354-4105-9a79-0ae3b6f6bf79>
+        rdf:type        dcat:Distribution ;
+        dct:format      "csv" ;
+        dct:identifier  "2" ;
+        dct:type        "description"^^xsd:anyURI ;
+        dcat:accessURL  "https://docs.google.com/spreadsheets/d/1x2YqbhVWl-behzIkNTillZfCRuOlWGQK/edit?usp=sharing&ouid=104527621786274184024&rtpof=true&sd=true" .
+
+<https://www.epos-eu.org/epos-dcat-ap#Agent/062be95b-8ce3-4c1d-9ec0-28040dc1ab21>
+        rdf:type   foaf:Agent ;
+        foaf:name  "Ludovic CHEVALLIER\r\nAndrea FRIGO" .
+
+<https://www.epos-eu.org/epos-dcat-ap#Dataset/f1992ea8-8b3c-4d86-ab7a-d5cbafcfc6e2>
+        rdf:type           dcat:Dataset ;
+        dct:description    "This files contains the last 2 steps for the purpose formalization" ;
+        dct:identifier     "1" ;
+        dct:publisher      <https://www.epos-eu.org/epos-dcat-ap#Agent/062be95b-8ce3-4c1d-9ec0-28040dc1ab21> ;
+        dct:title          "Informal Modeling Sheet" ;
+        dcat:contactPoint  "andrea.frigo@studenti.unitn.it" , "ludovic.chevallier@studenti.unitn.it" ;
+        dcat:distribution  <https://www.epos-eu.org/epos-dcat-ap#Distribution/b21d1b42-c354-4105-9a79-0ae3b6f6bf79> ;
+        dcat:keyword       "Purpose Formalization" .
