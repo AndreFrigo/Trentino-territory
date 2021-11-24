@@ -1,0 +1,47 @@
+@prefix :      <https://www.epos-eu.org/epos-dcat-ap#> .
+@prefix schema: <http://schema.org/> .
+@prefix spdx:  <http://spdx.org/rdf/terms#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix gsp:   <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hydra: <http://www.w3.org/ns/hydra/core#> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix locn:  <http://www.w3.org/ns/locn#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix epos:  <https://www.epos-eu.org/epos-dcat-ap#> .
+@prefix adms:  <http://www.w3.org/ns/adms#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix cnt:   <http://www.w3.org/2011/content#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix http:  <http://www.w3.org/2006/http#> .
+@prefix dash:  <http://datashapes.org/dash#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<https://www.epos-eu.org/epos-dcat-ap#Dataset/5c933d83-7897-4891-b1d4-ccb56ab70a4e>
+        rdf:type           dcat:Dataset ;
+        dct:description    "Modelisation of our ETG from our ER model" ;
+        dct:identifier     "1" ;
+        dct:publisher      <https://www.epos-eu.org/epos-dcat-ap#Agent/866d8354-679c-4f7b-ba81-ae46a1676501> ;
+        dct:title          "ETG" ;
+        dcat:contactPoint  "andrea.frigo@studenti.unitn.it" , "ludovic.chevallier@studenti.unitn.it" ;
+        dcat:distribution  <https://www.epos-eu.org/epos-dcat-ap#Distribution/96c19f9c-3eb1-423c-947d-ec608fc08a9a> ;
+        dcat:keyword       "ETG" .
+
+<https://www.epos-eu.org/epos-dcat-ap#Agent/866d8354-679c-4f7b-ba81-ae46a1676501>
+        rdf:type   foaf:Agent ;
+        foaf:name  "Ludovic CHEVALLIER\r\nAndrea FRIGO" .
+
+<https://www.epos-eu.org/epos-dcat-ap#Distribution/96c19f9c-3eb1-423c-947d-ec608fc08a9a>
+        rdf:type        dcat:Distribution ;
+        dct:conformsTo  "KOS" , "protege" ;
+        dct:format      "owl" ;
+        dct:identifier  "2"^^xsd:anyURI ;
+        dct:type        "modelisation"^^xsd:anyURI ;
+        dcat:accessURL  "https://drive.google.com/file/d/16TNXXaCeoHFCFu7vIsdhVWoLyc9Cd1nM/view?usp=sharing" .
