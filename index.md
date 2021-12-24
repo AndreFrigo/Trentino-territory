@@ -20,10 +20,9 @@ One weakness of this process is the number of different datasets that we collect
 The links are the following:
 <ul>
   <li><a href="https://dati.trentino.it/en_GB/dataset/punti-di-interesse-del-trentino">Trentino-JSON</a></li>
-  <li><a href="https://dati.trentino.it/en_GB/dataset?tags=luoghi+e+punti+di+interesse">Trentino-JSON</a></li>
-  <li><a href="https://dati.trentino.it/en_GB/dataset/punti-di-interesse-valsugana">Trentino-JSON</a></li>
+  <li><a href="https://dati.trentino.it/en_GB/dataset?tags=luoghi+e+punti+di+interesse">CSV</a></li>
+  <li><a href="https://dati.trentino.it/en_GB/dataset/punti-di-interesse-valsugana">Valsugana-JSON</a></li>
 </ul>
-
 
 ## Reference schemas
 We chose the schema Place and its children because  they are used in the geospace domain. Place has a lot of categories which feats our needs like address, latitude, longitude, telephone number…. The other schemas have these properties but also other one like touristType or openingHours which could be needed for our database.
