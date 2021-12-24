@@ -61,4 +61,4 @@ The link to the KG file is <a href="https://github.com/AndreFrigo/Trentino-terri
 ## Project repository
 The link to the project repository is <a href="https://github.com/AndreFrigo/Trentino-territory">this</a>.
 
-In particular, the to the project report is<a href="https://github.com/AndreFrigo/Trentino-territory/blob/main/Documentation/Project%20Report.pdf">this</a>.
+In particular, the to the project report is <a href="https://github.com/AndreFrigo/Trentino-territory/blob/main/Documentation/Project%20Report.pdf">this</a>.
