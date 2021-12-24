@@ -1,0 +1,2 @@
+The code used for the project can be found in:
+https://github.com/AndreFrigo/kdi_project
