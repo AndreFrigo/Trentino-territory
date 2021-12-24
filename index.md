@@ -28,6 +28,7 @@ The links are the following:
 We chose the schema Place and its children because  they are used in the geospace domain. Place has a lot of categories which feats our needs like address, latitude, longitude, telephone number…. The other schemas have these properties but also other one like touristType or openingHours which could be needed for our database.
 Landform and LandmarksOrHistoricalBuildings don't have any other properties but could be still interesting since they inherited from Place and are linked to our DoI. 
 We also added a schema called organization, because we think that splitting the database in two tables, one for the point of interest and the other one for organizations, could be a good idea. Using this schema, we could add other useful information like the email or the name of the company, but for now  we are not certain of this.
+The weakness of this process is since we base our knowledge resource on one source, we don’t have a lot of variety of information. But still, the resources are well documented, have a lot of other properties and fit our DoI pretty well, so we don’t think we will have any problems with our schema.
 
 The links are the following:
 <ul>
