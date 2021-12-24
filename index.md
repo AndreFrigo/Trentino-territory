@@ -18,11 +18,12 @@ The last JSON (Valsugana) has the same structure as the first JSON (trentino) bu
 One weakness of this process is the number of different datasets that we collected, like said before it is difficult to find information about naturalistic point of interest. From the datasets collected we can find almost all the core information that we need, but for some objects, contextual categories are missing  (many are blank).
 
 The links are the following:
-Trentino-JSON: https://dati.trentino.it/en_GB/dataset/punti-di-interesse-del-trentino
+<ul>
+  <li><a href="https://dati.trentino.it/en_GB/dataset/punti-di-interesse-del-trentino">Trentino-JSON</a></li>
+  <li><a href="https://dati.trentino.it/en_GB/dataset?tags=luoghi+e+punti+di+interesse">Trentino-JSON</a></li>
+  <li><a href="https://dati.trentino.it/en_GB/dataset/punti-di-interesse-valsugana">Trentino-JSON</a></li>
+</ul>
 
-CSV:https://dati.trentino.it/en_GB/dataset?tags=luoghi+e+punti+di+interesse
-
-Valsugana-JSON:https://dati.trentino.it/en_GB/dataset/punti-di-interesse-valsugana
 
 ## Reference schemas
 We chose the schema Place and its children because  they are used in the geospace domain. Place has a lot of categories which feats our needs like address, latitude, longitude, telephone number…. The other schemas have these properties but also other one like touristType or openingHours which could be needed for our database.
@@ -30,19 +31,15 @@ Landform and LandmarksOrHistoricalBuildings don't have any other properties but 
 We also added a schema called organization, because we think that splitting the database in two tables, one for the point of interest and the other one for organizations, could be a good idea. Using this schema, we could add other useful information like the email or the name of the company, but for now  we are not certain of this.
 
 The links are the following:
-Place:https://schema.org/Place
-
-TouristicDestination:https://schema.org/TouristDestination
-
-TouristicAttraction:https://schema.org/TouristAttraction
-
-LandmarksOrHistoricalBuildings:https://schema.org/LandmarksOrHistoricalBuildings
-
-CivicStructure:https://schema.org/CivicStructure
-
-Landform:https://schema.org/Landform
-
-Organization:https://schema.org/Organization
+<ul>
+  <li><a href="https://schema.org/Place">Place</a></li>
+  <li><a href="https://schema.org/TouristDestination">TouristicDestination</a></li>
+  <li><a href="https://schema.org/TouristAttraction">TouristicAttraction</a></li>
+  <li><a href="https://schema.org/LandmarksOrHistoricalBuildings">LandmarksOrHistoricalBuildings</a></li>
+  <li><a href="https://schema.org/CivicStructure">CivicStructure</a></li>
+  <li><a href="https://schema.org/Landform">Landform</a></li>
+  <li><a href="https://schema.org/Organization">Organization</a></li>
+</ul>
 
 ## ETG
 To create our ETG we used our ER MODEL and the software protégé to define for each class the object and data properties associated. During this process we also tried to modify the name of our data properties by the names inside of the ontology as much as we could and without modifying the meaning that we gave them. For example we modified website by url or PhoneNumber by telephone or CAP by postal code which comes from the schema PLACE which comes from our knowledge resources (look part 2.4). But we didn't modify location by geocoordinates because for us it's too precise and not clear. We did this because it improves the reusability and sharebility.
@@ -53,19 +50,15 @@ For our object property "has company" we indicate that it is the inverse of "has
 
 For each classes that we have created we had to define it's data properties and the meanings of each data property (Language alignment) thanks to UKC.
 
-The link to the ETG file is the following:
-https://github.com/AndreFrigo/Trentino-territory/blob/main/Teleologies/Formal%20Modeling/ETG.owl
+The link to the ETG file is <a href="https://github.com/AndreFrigo/Trentino-territory/blob/main/Teleologies/Formal%20Modeling/ETG.owl">this</a>.
 
 ## KG
 In the end we have 4 Etypes : company, attraction, location and address. In total we have 18 properties inside our KG.For company we have 243 entities, for attraction we have 956 entities, for location we have 505 entities, for address we have 221 entities.
 We have 4 object properties: has_location, has_address, has_company and has_attraction. 
 
-The link to the KG file is the following:
-https://github.com/AndreFrigo/Trentino-territory/blob/main/Datasets/Data%20Integration/EG%20(RDF).rdf
+The link to the KG file is <a href="https://github.com/AndreFrigo/Trentino-territory/blob/main/Datasets/Data%20Integration/EG%20(RDF).rdf">this</a>.
 
 ## Project repository
-The link to the project repository is the following:
-https://github.com/AndreFrigo/Trentino-territory
+The link to the project repository is <a href="https://github.com/AndreFrigo/Trentino-territory">this</a>.
 
-In particular, the to the project report is:
-https://github.com/AndreFrigo/Trentino-territory/blob/main/Documentation/Project%20Report.pdf
+In particular, the to the project report is<a href="https://github.com/AndreFrigo/Trentino-territory/blob/main/Documentation/Project%20Report.pdf">this</a>.
